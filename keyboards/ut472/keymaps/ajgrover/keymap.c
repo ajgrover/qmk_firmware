@@ -74,7 +74,7 @@ LAYOUT( /* Right */
 
 LAYOUT( /* Left */
   KC_TILDE,  KC_EXCLAIM,  KC_AT,  KC_HASH,  KC_DOLLAR, KC_PERCENT, KC_CIRCUMFLEX, KC_AMPERSAND, KC_ASTERISK, KC_LEFT_PAREN, KC_RIGHT_PAREN, KC_DELETE,
-  _______, _______, _______, _______, KC_DQUO, _______, _______, KC_UNDERSCORE, KC_PLUS, KC_LEFT_CURLY_BRACE, KC_RIGHT_CURLY_BRACE, KC_PIPE,
+  KC_MPLY, KC_MPRV, KC_MNXT, KC_VOLD, KC_VOLU, KC_MUTE, _______, KC_UNDERSCORE, KC_PLUS, KC_LEFT_CURLY_BRACE, KC_RIGHT_CURLY_BRACE, KC_PIPE,
   _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  _______,
   _______, _______, _______, KC_CAPS, _______,     _______,      _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END
 ),
@@ -83,9 +83,9 @@ LAYOUT( /* Left */
    * ,-------------------------------------------------------------------------.
    * | Esc | Calc|Webhm| Mail| Comp|     |     |     |     |     |PrtSc|       |
    * |-------------------------------------------------------------------------+
-   * |      |     |     |     |     |     |     |     |     |     |     |      |
+   * | Play | Prev| Next|VolDn|VolUp| Mute|     |     |     |     |     |      |
    * |-------------------------------------------------------------------------+
-   * |       |    |     |     |     |     |     |     |     |     |     |     |
+   * |       |     |     |     |     |     |     |     |     |     |     |     |
    * |-------------------------------------------------------------------------+
    * |     |     |     |     |      |          |       |MousL|MousD|MousU|MousR|
    * `-------------------------------------------------------------------------'
